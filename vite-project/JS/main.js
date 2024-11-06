@@ -1,6 +1,5 @@
 import "./style.css";
 import javascriptLogo from "./javascript.svg";
-import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
@@ -19,6 +18,14 @@ document.querySelector("#app").innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
-`;
+`
+index.getElementbyId("filter-button").addEventListener.click
+
 
 setupCounter(document.querySelector("#counter"));
+
+const vegetarian = products.filter((product) => products.vegetarian);
+
+DOMSelectors.container.insertAdjacentHTML(
+  <div class="card"
+)
