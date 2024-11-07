@@ -1,1 +1,10 @@
-/* make colors */
+/*export this? */
+:root{
+    --dark-brown: #363020;
+    --light-brown: #605C4E;
+    --ecru: #A49966;
+    --sage: #C7C7A6;
+    --beige: #EAFFDA;
+    --primary: ;
+    --h1: ;
+}
