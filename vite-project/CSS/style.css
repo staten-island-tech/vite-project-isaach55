@@ -1,3 +1,23 @@
+/*   --dark-brown: #363020;
+    --light-brown: #605C4E;   walnut
+    --ecru: #A49966;
+    --sage: #C7C7A6;
+    --beige: #EAFFDA;         nyanza
+    --background: #16161E;
+    
+    primary
+    */
+
+body {
+  background-color: #16161E;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .card {
   border: 1px solid #ddd;
   padding: 1vw;
@@ -6,12 +26,6 @@
   width: 18vw;
   align-items: center;
   overflow: hidden;
-}
-
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .button-container {
