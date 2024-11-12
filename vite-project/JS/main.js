@@ -59,13 +59,12 @@ function createCard(products) {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
       `<div class="card">
-      <img src="${products.image}" alt="${}" width=10vw >
+      <img src="${product.image}" alt="${product.name}" class="product-image">
       <p>${product.name}</p>
       <p>$${product.price}</p>
     </div>`
     );
   });
 }
-//      <img src="${products.image}" alt="${"
 
 createCard(products);

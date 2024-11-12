@@ -1,18 +1,41 @@
 .card {
   border: 1px solid #ddd;
   padding: 1vw;
+  background-color: var(--sage);
   margin: 1vw;
-  width: 10vw;
+  width: 18vw;
+  align-items: center;
+  overflow: hidden;
 }
 
 #container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
 }
 
 .filter-button {
   margin: 1vw;
   padding: 1vw;
-  background-color: #C7C7A6;
+  background-color: var(--sage);
   border: none;
 }
+
+.product-image {
+  width: 80%;
+  object-fit: cover;
+}
+
+#theme-button {
+  margin-left: auto;
+}
+
+/*   --dark-brown: #363020;
+    --light-brown: #605C4E;
+    --ecru: #A49966;
+    --sage: #C7C7A6;
+    --beige: #EAFFDA; */
