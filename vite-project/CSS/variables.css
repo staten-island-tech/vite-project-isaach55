@@ -4,6 +4,16 @@
     --ecru: #A49966;
     --sage: #C7C7A6;
     --beige: #EAFFDA;
+    --h1: 7.358 rem;
+    --price-text:
+}
+
+.dark {
     --primary: ;
-    --h1: ;
+    --secondary: ;
+}
+
+.light {
+    --primary: ;
+    --secondary: ;
 }

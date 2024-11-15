@@ -43,7 +43,7 @@ DOMSelectors.vegetarianButton.addEventListener("click", function () {
 
 DOMSelectors.saleButton.addEventListener("click", function () {
   const saleProducts = products.map((product) => {
-    return { ...product, price: product.price * 0.75 };
+    return { ...product, price: (product.price * .75).toFixed(2)};
   });
   createCard(saleProducts);
 });
@@ -60,8 +60,8 @@ function createCard(products) {
       "beforeend",
       `<div class="card">
       <img src="${product.image}" alt="${product.name}" class="product-image">
-      <p>${product.name}</p>
-      <p>$${product.price}</p>
+      <p class="product-name">${product.name}</p>
+      <p class="product-price">$${product.price}</p>
     </div>`
     );
   });
