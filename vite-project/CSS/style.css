@@ -1,20 +1,30 @@
-/*   --dark-brown: #363020;
-    --light-brown: #605C4E;   walnut
-    --ecru: #A49966;
-    --sage: #C7C7A6;
-    --beige: #EAFFDA;         nyanza
-    --background: #16161E;
-    
-    primary
-    */
+@import "variables.css";
+
+.black {
+  --primary: var(--dark-raisin);
+  --secondary: var(--sage);
+  --tertiary: var(--licorice);
+}
+
+.blue {
+  --primary: var(--dark-blue);
+  --secondary: var(--light-blue);
+  --tertiary: var(--blue);
+}
 
 body {
-  background-color: #16161E;
+  background-color: var(--primary); 
+  font-family: "Bitter", serif;
 }
 
 .header {
-  font-size: var(--h1);
-  color: aqua;
+  font-size: 10vh;
+  color: var(--heading-color);
+  margin: 0vw 1vw;
+}
+
+.button-container {
+  display: flex;
 }
 
 #container {
@@ -27,48 +37,46 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   padding: 1vw;
-  background-color: var(--sage);
+  background-color: var(--secondary);
   border-radius: 2vw;
+  width: 44vw;
   margin: 1vw;
-  width: 44.75vw;
   justify-content: center;
   box-sizing: border-box;
   text-align: center;
 }
 
-.button-container {
-  display: flex;
-}
-
 .filter-button {
+  background-color: var(--button-color);
+  border: none;
   margin: 1vw;
   padding: 1vw;
-  background-color: var(--sage);
-  border: none;
+  font-family: "Bitter", serif;
 }
 
 .product-image {
   width: 100%;
-  max-height: 30vw;
+  max-height: 28vw;
   object-fit: cover;
-  border: 1vw solid var(--beige);
+  border: 1vw solid var(--tertiary);
   overflow: hidden;
   box-sizing: border-box;
+  border-radius: 1vw;
 }
 
 #theme-button {
   margin-left: auto;
 }
 
-.product-name {
+.filter-button:hover {
+  background-color: var(--hover-color);
 }
 
-.product-price {
+@media (max-width: 600px) {
+  .filter-button {
+    font-size: 0.5rem;
+  }
+  #theme-button {
+    margin: 1vw;
+  }
 }
-
-
-/*   --dark-brown: #363020;
-    --light-brown: #605C4E;
-    --ecru: #A49966;
-    --sage: #C7C7A6;
-    --beige: #EAFFDA; */

@@ -1,19 +1,18 @@
 :root{
-    --dark-brown: #363020;
-    --light-brown: #605C4E;
-    --ecru: #A49966;
+    --dark-raisin: #16161E;
     --sage: #C7C7A6;
-    --beige: #EAFFDA;
-    --h1: 7.358 rem;
-    --price-text:
-}
+    --licorice: #25171A;
+    --vanilla: #D0DB97;
+    --green: #69B578;
+    --dark-blue: #114B5F;
+    --blue: #456990;
+    --light-blue: #9DD9D2;
 
-.dark {
-    --primary: ;
-    --secondary: ;
-}
-
-.light {
-    --primary: ;
-    --secondary: ;
+    /*Intentions*/
+    --primary: var(--dark-blue);
+    --secondary: var(--light-blue);
+    --tertiary: var(--blue);
+    --heading-color: var(--vanilla);
+    --button-color: var(--green);
+    --hover-color: var(--vanilla);
 }
