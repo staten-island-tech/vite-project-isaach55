@@ -1,4 +1,4 @@
-import "../css/style.css";
+import "../CSS/style.css";
 import { products } from "./products.js";
 
 const DOMSelectors = {
